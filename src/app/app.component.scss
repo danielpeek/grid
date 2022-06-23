@@ -1,0 +1,19 @@
+:host {
+    height: 100%;
+    width: 100%;
+
+    .fill {
+        background-color: green;
+        color: red;
+        height: 100%;
+
+        &.two {
+            background-color: blue;
+            color: lime;
+        }
+    }
+
+    p {
+        margin: 0;
+    }
+}
